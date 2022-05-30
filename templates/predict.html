@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+<form action='/submit',method='post'>
+            Enter Your Glucose Levvel :<input type="text" name="glucose_level"/>
+            <br><br>
+            Enter your BMI :<input type="text" name="bmi"/>
+            <br><br>
+             Enter your Insulin Level :<input type="text" name="insulin_level"/>
+            <br><br>
+             Enter your skin thickness :<input type="text" name="skin_thickness"/>
+            <br><br>
+             Enter your Diabetes Pedigree Function :<input type="text" name="dpf"/>
+            <br><br>
+             Enter your Age :<input type="text" name="age"/>
+            <br><br>
+             Enter your blood pregnancies  :<input type="text" name="bp"/>
+            <br><br>
+             Enter the pregnancies that your have had :<input type="text" name="n_preg"/>
+            <br><br>
+            <input type="submit" value="submit">
+</form>
+{% endblock %}
+             
